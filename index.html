@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <title>Contatc Page Jaani</title>
+
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Style Script', cursive;
+            font-size: 70px;
+            margin: auto;
+        }
+        form{
+            display: grid;
+            margin: auto;
+            justify-content: center;
+        }
+        input{
+            margin: 5px;
+            font-size: 25px;
+        }
+        table tr td {
+            font-size: 25px;
+            font-family: 'Libre Baskerville', serif;
+        }
+        select{
+            font-size: 20px;
+            margin-left: 5px;
+            font-family: 'Libre Baskerville', serif;
+        }
+        button{
+            font-size: 25px;
+            width: 50%;
+            display: block;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 18px;
+            font-family: 'Libre Baskerville', serif;
+        }
+        table{
+            margin-bottom: 20px;
+        }
+        textarea{
+            margin-bottom: 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-family: 'Libre Baskerville', serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Jaani</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="first-name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Last Name
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="first-name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        E-mail
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="first-name" placeholder="example@gmail.com">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="first-name">
+                    </td>
+                </tr>
+                
+                <tr>
+                <td>
+                    Phone no.
+                </td>
+                <td>
+                    <input type="text" name="phone" id="phone">
+                </td>
+            </tr>
+
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Courses
+                    </td>
+                    <td>
+                        <select>
+                            <option>B-tech</option>
+                            <option>M-tech</option>
+                            <option>MBA</option>
+                            <option>BCA</option>
+                            <option>BBA</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <textarea name="message" id="message" cols="30" rows="8" placeholder="Your Message"></textarea>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
